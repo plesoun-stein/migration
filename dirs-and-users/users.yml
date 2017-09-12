@@ -1,0 +1,12 @@
+---
+users:
+        - username: bagr1
+          shell: /bin/bash
+          createhome: yes
+          uid: 2001
+
+        - username: bagr2
+          shell: /bin/bash
+          createhome: yes
+          uid: 2002
+

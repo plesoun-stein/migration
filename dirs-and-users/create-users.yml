@@ -1,0 +1,13 @@
+---
+- hosts: 127.0.0.1
+  user: root
+
+  tasks:
+  - include_vars: users.yml
+
+  - name: Add users |create users, shells, homedirs, 
+    user: name={{ item.username }} shell={{ item.shell }} createhome={{ item.createhome }} uid={{ item.uid }}
+    with_items: '{{ users }}'
+
+
+
