@@ -3,7 +3,11 @@
   user: root
 
   tasks:
-  - include_vars: users.yml,groups.yml
+  - include_vars: 
+     file: users.yml
+     name: users
+     file: groups.yml
+     name: groups
 
   - name: Add users |create users, shells, homedirs, 
     user: name={{ item.username }} shell={{ item.shell }} createhome={{ item.createhome }} uid={{ item.uid }} group={{item.group}} 
