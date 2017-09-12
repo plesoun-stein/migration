@@ -1,4 +1,6 @@
-       -  path: /home/srv/git/
+---
+dirs:
+       -  path: /home/srv/git/.
           owner: git
           group: git
           mode: 755
@@ -23,7 +25,7 @@
           group: git
           mode: 700
 
-       -  path: /home/srv/net.alembiq.wiki/
+       -  path: /home/srv/net.alembiq.wiki/.
           owner: charles
           group: alembiq
           mode: 755
@@ -38,27 +40,27 @@
           group: mysql
           mode: 755
 
-       -  path: /home/srv/com.estanor.praguebylarp/
-          owner: estanor
-          group: madfairy
+       -  path: /home/srv/com.estanor.praguebylarp/.
+          owner: root
+          group: root
           mode: 755
 
        -  path: /home/srv/com.estanor.praguebylarp/htdocs
-          owner: estanor
-          group: madfairy
+          owner: root
+          group: root
           mode: 755
 
-       -  path: /home/srv/com.estanor.madfairy.odraz/
-          owner: estanor
-          group: madfairy
+       -  path: /home/srv/com.estanor.madfairy.odraz/.
+          owner: root
+          group: root
           mode: 755
 
        -  path: /home/srv/com.estanor.madfairy.odraz/htdocs
-          owner: estanor
-          group: madfairy
+          owner: root
+          group: root
           mode: 755
 
-       -  path: /home/srv/net.alembiq.www/
+       -  path: /home/srv/net.alembiq.www/.
           owner: charles
           group: alembiq
           mode: 755
@@ -73,7 +75,7 @@
           group: mysql
           mode: 755
 
-       -  path: /home/srv/com.estanor.anor/
+       -  path: /home/srv/com.estanor.anor/.
           owner: estanor
           group: madfairy
           mode: 755
@@ -88,7 +90,7 @@
           group: mysql
           mode: 755
 
-       -  path: /home/srv/cz.danezakafe.www/
+       -  path: /home/srv/cz.danezakafe.www/.
           owner: estanor
           group: madfairy
           mode: 755
@@ -98,24 +100,24 @@
           group: madfairy
           mode: 755
 
-       -  path: /home/srv/com.estanor.madfairy.sny/
-          owner: estanor
-          group: madfairy
+       -  path: /home/srv/com.estanor.madfairy.sny/.
+          owner: root
+          group: root
           mode: 755
 
        -  path: /home/srv/com.estanor.madfairy.sny/htdocs
-          owner: estanor
-          group: madfairy
+          owner: root
+          group: root
           mode: 755
 
-       -  path: /home/srv/com.estanor.madfairy/
-          owner: estanor
-          group: madfairy
+       -  path: /home/srv/com.estanor.madfairy/.
+          owner: root
+          group: root
           mode: 755
 
        -  path: /home/srv/com.estanor.madfairy/htdocs
-          owner: estanor
-          group: madfairy
+          owner: root
+          group: root
           mode: 755
 
        -  path: /home/srv/com.estanor.madfairy/mysql
@@ -123,7 +125,7 @@
           group: mysql
           mode: 755
 
-       -  path: /home/srv/org.larpportal.www/
+       -  path: /home/srv/org.larpportal.www/.
           owner: virtualbox
           group: vboxusers
           mode: 775
@@ -163,12 +165,12 @@
           group: larpportal
           mode: 755
 
-       -  path: /home/srv/mysql/
+       -  path: /home/srv/mysql/.
           owner: mysql
           group: mysql
           mode: 2750
 
-       -  path: /home/srv/eu.aliunde.www/
+       -  path: /home/srv/eu.aliunde.www/.
           owner: charles
           group: www-data
           mode: 755
@@ -183,7 +185,7 @@
           group: mysql
           mode: 755
 
-       -  path: /home/srv/postgresql/
+       -  path: /home/srv/postgresql/.
           owner: postgres
           group: postgres
           mode: 755
@@ -193,7 +195,7 @@
           group: postgres
           mode: 700
 
-       -  path: /home/srv/net.intellisign.www/
+       -  path: /home/srv/net.intellisign.www/.
           owner: sylvaen
           group: intellisign
           mode: 755
@@ -208,7 +210,7 @@
           group: mysql
           mode: 755
 
-       -  path: /home/srv/photography.karelkremel.www/
+       -  path: /home/srv/photography.karelkremel.www/.
           owner: charles
           group: charles
           mode: 755
@@ -228,7 +230,7 @@
           group: alembiq
           mode: 755
 
-       -  path: /home/srv/com.estanor.dopis/
+       -  path: /home/srv/com.estanor.dopis/.
           owner: estanor
           group: madfairy
           mode: 755
@@ -238,17 +240,17 @@
           group: madfairy
           mode: 755
 
-       -  path: /home/srv/com.estanor.madfairy.skritci/
-          owner: estanor
-          group: madfairy
+       -  path: /home/srv/com.estanor.madfairy.skritci/.
+          owner: root
+          group: root
           mode: 755
 
        -  path: /home/srv/com.estanor.madfairy.skritci/htdocs
-          owner: estanor
-          group: madfairy
+          owner: root
+          group: root
           mode: 755
 
-       -  path: /home/srv/cz.aplikovanakreativita.www/
+       -  path: /home/srv/cz.aplikovanakreativita.www/.
           owner: charles
           group: www-data
           mode: 755
@@ -263,7 +265,7 @@
           group: mysql
           mode: 755
 
-       -  path: /home/srv/cz.aplikovanakreativita.wiki/
+       -  path: /home/srv/cz.aplikovanakreativita.wiki/.
           owner: charles
           group: www-data
           mode: 755
@@ -278,7 +280,7 @@
           group: mysql
           mode: 755
 
-       -  path: /home/srv/cz.mercenarius.www/
+       -  path: /home/srv/cz.mercenarius.www/.
           owner: mcrassus
           group: mcrassus
           mode: 755
@@ -293,14 +295,14 @@
           group: mysql
           mode: 755
 
-       -  path: /home/srv/com.estanor.promeny/
-          owner: estanor
-          group: madfairy
+       -  path: /home/srv/com.estanor.promeny/.
+          owner: root
+          group: root
           mode: 755
 
        -  path: /home/srv/com.estanor.promeny/htdocs
-          owner: estanor
-          group: madfairy
+          owner: root
+          group: root
           mode: 755
 
        -  path: /home/srv/com.estanor.promeny/mysql
@@ -308,7 +310,7 @@
           group: mysql
           mode: 700
 
-       -  path: /home/srv/eu.maikaphoto.www/
+       -  path: /home/srv/eu.maikaphoto.www/.
           owner: www-data
           group: www-data
           mode: 755
@@ -323,7 +325,7 @@
           group: mysql
           mode: 755
 
-       -  path: /home/srv/cz.charitativni.www/
+       -  path: /home/srv/cz.charitativni.www/.
           owner: charles
           group: www-data
           mode: 755
@@ -338,7 +340,7 @@
           group: mysql
           mode: 755
 
-       -  path: /home/srv/net.alembiq.statistics/
+       -  path: /home/srv/net.alembiq.statistics/.
           owner: charles
           group: alembiq
           mode: 755
@@ -348,7 +350,7 @@
           group: alembiq
           mode: 755
 
-       -  path: /home/srv/com.karelkremel.www/
+       -  path: /home/srv/com.karelkremel.www/.
           owner: charles
           group: alembiq
           mode: 755
@@ -363,7 +365,7 @@
           group: mysql
           mode: 755
 
-       -  path: /home/srv/com.estanor.www/
+       -  path: /home/srv/com.estanor.www/.
           owner: estanor
           group: madfairy
           mode: 755
@@ -374,11 +376,11 @@
           mode: 755
 
        -  path: /home/srv/com.estanor.www/mysql
-          wner: mysql
+          owner: mysql
           group: mysql
           mode: 755
 
-       -  path: /home/srv/com.gnomephoto.www/
+       -  path: /home/srv/com.gnomephoto.www/.
           owner: charles
           group: aliunde
           mode: 755
@@ -393,14 +395,14 @@
           group: mysql
           mode: 755
 
-       -  path: /home/srv/com.estanor.madfairy.moon/
-          owner: estanor
-          group: madfairy
+       -  path: /home/srv/com.estanor.madfairy.moon/.
+          owner: root
+          group: root
           mode: 755
 
        -  path: /home/srv/com.estanor.madfairy.moon/htdocs
-          owner: estanor
-          group: madfairy
+          owner: root
+          group: root
           mode: 755
 
        -  path: /home/srv/com.estanor.madfairy.moon/mysql
@@ -408,7 +410,7 @@
           group: mysql
           mode: 700
 
-       -  path: /home/srv/com.galeriebydleni.www/
+       -  path: /home/srv/com.galeriebydleni.www/.
           owner: charles
           group: alembiq
           mode: 755
@@ -423,7 +425,7 @@
           group: mysql
           mode: 755
 
-       -  path: /home/srv/com.emilovic.www/
+       -  path: /home/srv/com.emilovic.www/.
           owner: emil
           group: www-data
           mode: 755
@@ -438,7 +440,7 @@
           group: mysql
           mode: 755
 
-       -  path: /home/srv/cz.rozpocty.www/
+       -  path: /home/srv/cz.rozpocty.www/.
           owner: charles
           group: www-data
           mode: 755
@@ -448,7 +450,7 @@
           group: www-data
           mode: 755
 
-       -  path: /home/srv/net.alembiq.reader/
+       -  path: /home/srv/net.alembiq.reader/.
           owner: www-data
           group: www-data
           mode: 755
@@ -463,7 +465,7 @@
           group: www-data
           mode: 755
 
-       -  path: /home/srv/photo.hajek.www/
+       -  path: /home/srv/photo.hajek.www/.
           owner: zip
           group: zip
           mode: 755
@@ -478,7 +480,7 @@
           group: mysql
           mode: 755
 
-       -  path: /home/srv/com.estanor.klab/
+       -  path: /home/srv/com.estanor.klab/.
           owner: estanor
           group: madfairy
           mode: 755
@@ -488,7 +490,7 @@
           group: madfairy
           mode: 755
 
-       -  path: /home/srv/net.alembiq.validator/
+       -  path: /home/srv/net.alembiq.validator/.
           owner: charles
           group: validator
           mode: 755
@@ -523,7 +525,7 @@
           group: mysql
           mode: 755
 
-       -  path: /home/srv/net.alembiq.redmine/
+       -  path: /home/srv/net.alembiq.redmine/.
           owner: emil
           group: emil
           mode: 755
