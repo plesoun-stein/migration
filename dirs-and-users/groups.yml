@@ -1,5 +1,5 @@
 ---
-groups:
+users:
         - username: balda
           groups: balda,validator
 
