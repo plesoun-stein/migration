@@ -6,13 +6,7 @@
   - include_vars: 
      file: users.yml
      name: users
-     file: groups.yml
-     name: groups
 
   - name: Add users |create users, shells, homedirs, 
     user: name={{ item.username }} shell={{ item.shell }} createhome={{ item.createhome }} uid={{ item.uid }} group={{item.group}} 
     with_items: '{{ users }}'
-
-  - name: Add users | add groups
-    user: name={{ item.username }} groups={{item.groups}} 
-    with_items: '{{groups}}'
