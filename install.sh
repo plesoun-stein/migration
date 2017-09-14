@@ -26,6 +26,6 @@ cd $mydir/dirs-and-users
 ansible-playbook create-mysqldirsadnlinks
 
 cd /root/wrk/migrace_durga
-/root/wrk/import_dbs.sh
+./import_dbs.sh
 
 
