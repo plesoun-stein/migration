@@ -1,0 +1,14 @@
+---
+groups:
+        - group: alembiq
+          gid: 1006
+        - group: aliunde
+          gid: 1008
+        - group: intellisign
+          gid: 1010
+        - group: validator
+          gid: 1011
+        - group: larpportal
+          gid: 1012
+        - group: mercenarius
+          gid: 1013

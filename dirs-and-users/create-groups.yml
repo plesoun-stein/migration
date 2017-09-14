@@ -1,0 +1,11 @@
+---
+- hosts: 127.0.0.1
+  user: root
+
+  tasks:
+  - include_vars: 
+     file: addextragroups.yml
+
+  - name: group | add extra group
+    group: name={{ item.name }} gid={{item.groups}} 
+    with_items: '{{group}}'

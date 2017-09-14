@@ -4,7 +4,7 @@
 
   tasks:
   - include_vars: 
-     file: groups.yml
+     file: extragroups.yml
 
   - name: Add users | add groups
     user: name={{ item.username }} groups={{item.groups}} 
