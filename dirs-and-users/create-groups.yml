@@ -7,5 +7,5 @@
      file: addextragroups.yml
 
   - name: group | add extra group
-    group: name={{ item.name }} gid={{item.groups}} 
+    group: name={{ item.name }} gid={{item.gid}} 
     with_items: '{{group}}'
