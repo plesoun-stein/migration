@@ -1,0 +1,15 @@
+---
+- hosts : 127.0.0.1
+  user: root
+
+  tasks: 
+  - include_vars: mysqldirsandlinks.yml
+  - name: Create folder
+    copy: src={{item.src}}/db.opt dest={{item.dest}} owner=mysql group=mysql mode=644 
+    with_items: '{{dirs}}'
+  - name: Delete folder
+    file: state=absent path="{{ item.src }}/"
+    with_items: '{{dirs}}'
+  - name: create symlink for db
+    file: src={{ item.dest }} dest={{ item.src }} state link 
+    with_items: '{{dirs}}'
