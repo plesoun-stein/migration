@@ -126,28 +126,28 @@ dirs:
           mode: 755
 
        -  path: /home/srv/org.larpportal.www
-          owner: virtualbox
-          group: vboxusers
+          owner: olaph
+          group: larpportal
           mode: 775
 
        -  path: /home/srv/org.larpportal.www/liferay-portal-6.2.0-ce-ga1
-          owner: virtualbox
-          group: vboxusers
+          owner: olaph
+          group: larpportal
           mode: 755
 
        -  path: /home/srv/org.larpportal.www/jre1.7.0_51
-          owner: virtualbox
-          group: vboxusers
+          owner: olaph
+          group: larpportal
           mode: 755
 
        -  path: /home/srv/org.larpportal.www/jdk1.8.0_20
-          owner: virtualbox
-          group: vboxusers
+          owner: olaph
+          group: larpportal
           mode: 755
 
        -  path: /home/srv/org.larpportal.www/htdocs
-          owner: virtualbox
-          group: vboxusers
+          owner: olaph
+          group: larpportal
           mode: 755
 
        -  path: /home/srv/org.larpportal.www/mysql
