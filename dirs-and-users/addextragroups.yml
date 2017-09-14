@@ -1,14 +1,14 @@
 ---
-groups:
-        - group: alembiq
-          gid: 1006
-        - group: aliunde
-          gid: 1008
-        - group: intellisign
-          gid: 1010
-        - group: validator
-          gid: 1011
-        - group: larpportal
-          gid: 1012
-        - group: mercenarius
-          gid: 1013
+roups:
+        - name: alembiq
+          gid: 2006
+        - name: aliunde
+          gid: 2008
+        - name: intellisign
+          gid: 2010
+        - name: validator
+          gid: 2011
+        - name: larpportal
+          gid: 2012
+        - name: mercenarius
+          gid: 2013
