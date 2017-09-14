@@ -11,5 +11,5 @@
     file: state=absent path="{{ item.src }}/"
     with_items: '{{dirs}}'
   - name: create symlink for db
-    file: src={{ item.dest }} dest={{ item.src }} state=link 
+    file: src={{ item.dest }} dest={{ item.src }} owner=mysql group=mysql state=link 
     with_items: '{{dirs}}'
