@@ -2,79 +2,65 @@
 users:
         - username: balda
           uid: 1001
-          group: balda
           shell: /bin/bash
           createhome: yes
 
         - username: charles
           uid: 900
-          group: charles
           shell: /bin/bash
           createhome: yes
 
         - username: emil
           uid: 1000
-          group: emil
           shell: /bin/bash
           createhome: yes
 
         - username: estanor
           uid: 1002
-          group: estanor
           shell: /bin/bash
           createhome: yes
 
         - username: maika
           uid: 1008
-          group: www-data
           shell: /bin/bash
           createhome: yes
 
         - username: mcrassus
           uid: 1007
-          group: mcrassus
           shell: /bin/bash
           createhome: yes
 
         - username: nowitch
           uid: 1003
-          group: nowitch
           shell: /bin/bash
           createhome: yes
 
         - username: olaph
           uid: 1004
-          group: olaph
           shell: /bin/bash
           createhome: yes
 
         - username: steiner
           uid: 950
-          group: steiner
           shell: /bin/bash
           createhome: yes
 
         - username: sylvaen
           uid: 1005
-          group: sylvaen
           shell: /bin/bash
           createhome: yes
 
         - username: tomi
           uid: 1006
-          group: tomi
           shell: /bin/bash
           createhome: yes
 
         - username: vault
           uid: 120
-          group: vault
           shell: /bin/bash
           createhome: yes
 
         - username: zip
           uid: 1017
-          group: zip
           shell: /bin/bash
           createhome: yes
-

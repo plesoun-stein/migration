@@ -8,5 +8,5 @@
      name: users
 
   - name: Add users |create users, shells, homedirs, 
-    user: name={{ item.username }} shell={{ item.shell }} createhome={{ item.createhome }} uid={{ item.uid }} group={{item.group}} 
+    user: name={{ item.username }} shell={{ item.shell }} createhome={{ item.createhome }} uid={{ item.uid }} 
     with_items: '{{ users }}'

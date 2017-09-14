@@ -1,5 +1,5 @@
 ---
-roups:
+group:
         - name: alembiq
           gid: 2006
         - name: aliunde
