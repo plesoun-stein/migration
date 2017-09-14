@@ -1,5 +1,10 @@
 ---
 users:
+        - username: git
+          uid: 116
+          shell:/bin/sh
+          createhome: yes
+          
         - username: balda
           uid: 1001
           shell: /bin/bash
