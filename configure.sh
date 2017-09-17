@@ -10,6 +10,8 @@ ansible-playbook create-dirs.yml
 rmdir /srv 
 ln -s /home/srv /srv
 
+cp -a /var/lib/mysql/* /home/srv/maria/
+
 systemctl start mariadb.service
 
 cd /root/wrk/migrace_durga
