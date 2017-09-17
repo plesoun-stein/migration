@@ -12,6 +12,8 @@ ln -s /home/srv /srv
 
 cp -a /var/lib/mysql/* /home/srv/maria/
 
+systemctl daemon-reload
+
 systemctl start mariadb.service
 
 cd /root/wrk/migrace_durga
