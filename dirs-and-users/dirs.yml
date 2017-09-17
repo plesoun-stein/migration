@@ -1,5 +1,10 @@
 ---
 dirs:
+       -  path: /home/srv
+          owner: root
+          owner: root
+          mode: 755
+
        -  path: /home/srv/git
           owner: git
           group: git
@@ -41,23 +46,23 @@ dirs:
           mode: 755
 
        -  path: /home/srv/com.estanor.praguebylarp
-          owner: root
-          group: root
+          owner: estanor
+          owner: madfairy
           mode: 755
 
        -  path: /home/srv/com.estanor.praguebylarp/htdocs
-          owner: root
-          group: root
+          owner: estanor
+          owner: madfairy
           mode: 755
 
        -  path: /home/srv/com.estanor.madfairy.odraz
-          owner: root
-          group: root
+          owner: estanor
+          owner: madfairy
           mode: 755
 
        -  path: /home/srv/com.estanor.madfairy.odraz/htdocs
-          owner: root
-          group: root
+          owner: estanor
+          owner: madfairy
           mode: 755
 
        -  path: /home/srv/net.alembiq.www
@@ -101,23 +106,23 @@ dirs:
           mode: 755
 
        -  path: /home/srv/com.estanor.madfairy.sny
-          owner: root
-          group: root
+          owner: estanor
+          owner: madfairy
           mode: 755
 
        -  path: /home/srv/com.estanor.madfairy.sny/htdocs
-          owner: root
-          group: root
+          owner: estanor
+          owner: madfairy
           mode: 755
 
        -  path: /home/srv/com.estanor.madfairy
-          owner: root
-          group: root
+          owner: estanor
+          owner: madfairy
           mode: 755
 
        -  path: /home/srv/com.estanor.madfairy/htdocs
-          owner: root
-          group: root
+          owner: estanor
+          owner: madfairy
           mode: 755
 
        -  path: /home/srv/com.estanor.madfairy/mysql
@@ -241,13 +246,13 @@ dirs:
           mode: 755
 
        -  path: /home/srv/com.estanor.madfairy.skritci
-          owner: root
-          group: root
+          owner: estanor
+          owner: madfairy
           mode: 755
 
        -  path: /home/srv/com.estanor.madfairy.skritci/htdocs
-          owner: root
-          group: root
+          owner: estanor
+          owner: madfairy
           mode: 755
 
        -  path: /home/srv/cz.aplikovanakreativita.www
@@ -296,13 +301,13 @@ dirs:
           mode: 755
 
        -  path: /home/srv/com.estanor.promeny
-          owner: root
-          group: root
+          owner: estanor
+          owner: madfairy
           mode: 755
 
        -  path: /home/srv/com.estanor.promeny/htdocs
-          owner: root
-          group: root
+          owner: estanor
+          owner: madfairy
           mode: 755
 
        -  path: /home/srv/com.estanor.promeny/mysql
@@ -396,13 +401,13 @@ dirs:
           mode: 755
 
        -  path: /home/srv/com.estanor.madfairy.moon
-          owner: root
-          group: root
+          owner: estanor
+          owner: madfairy
           mode: 755
 
        -  path: /home/srv/com.estanor.madfairy.moon/htdocs
-          owner: root
-          group: root
+          owner: estanor
+          owner: madfairy
           mode: 755
 
        -  path: /home/srv/com.estanor.madfairy.moon/mysql
