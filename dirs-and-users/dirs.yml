@@ -6,8 +6,8 @@ dirs:
           mode: 755
 
        -  path: /home/srv/maria
-          owner: maria
-          group: mariadb
+          owner: mysql
+          group: mysql
           mode: 755
 
        -  path: /home/srv/git
@@ -46,8 +46,8 @@ dirs:
           mode: 755
 
        -  path: /home/srv/net.alembiq.wiki/mysql
-          owner: maria
-          group: mariadb
+          owner: mysql
+          group: mysql
           mode: 755
 
        -  path: /home/srv/com.estanor.praguebylarp
@@ -81,8 +81,8 @@ dirs:
           mode: 755
 
        -  path: /home/srv/net.alembiq.www/mysql
-          owner: maria
-          group: mariadb
+          owner: mysql
+          group: mysql
           mode: 755
 
        -  path: /home/srv/com.estanor.anor
@@ -96,8 +96,8 @@ dirs:
           mode: 755
 
        -  path: /home/srv/com.estanor.anor/mysql
-          owner: maria
-          group: mariadb
+          owner: mysql
+          group: mysql
           mode: 755
 
        -  path: /home/srv/cz.danezakafe.www
@@ -131,8 +131,8 @@ dirs:
           mode: 755
 
        -  path: /home/srv/com.estanor.madfairy/mysql
-          owner: maria
-          group: mariadb
+          owner: mysql
+          group: mysql
           mode: 755
 
        -  path: /home/srv/org.larpportal.www
@@ -161,8 +161,8 @@ dirs:
           mode: 755
 
        -  path: /home/srv/org.larpportal.www/mysql
-          owner: maria
-          group: mariadb
+          owner: mysql
+          group: mysql
           mode: 700
 
        -  path: /home/srv/org.larpportal.www/tomcat
@@ -176,8 +176,8 @@ dirs:
           mode: 755
 
        -  path: /home/srv/mysql
-          owner: maria
-          group: mariadb
+          owner: mysql
+          group: mysql
           mode: 2750
 
        -  path: /home/srv/eu.aliunde.www
@@ -191,8 +191,8 @@ dirs:
           mode: 755
 
        -  path: /home/srv/eu.aliunde.www/mysql
-          owner: maria
-          group: mariadb
+          owner: mysql
+          group: mysql
           mode: 755
 
        -  path: /home/srv/postgresql
@@ -216,8 +216,8 @@ dirs:
           mode: 755
 
        -  path: /home/srv/net.intellisign.www/mysql
-          owner: maria
-          group: mariadb
+          owner: mysql
+          group: mysql
           mode: 755
 
        -  path: /home/srv/photography.karelkremel.www
@@ -271,8 +271,8 @@ dirs:
           mode: 755
 
        -  path: /home/srv/cz.aplikovanakreativita.www/mysql
-          owner: maria
-          group: mariadb
+          owner: mysql
+          group: mysql
           mode: 755
 
        -  path: /home/srv/cz.aplikovanakreativita.wiki
@@ -286,8 +286,8 @@ dirs:
           mode: 755
 
        -  path: /home/srv/cz.aplikovanakreativita.wiki/mysql
-          owner: maria
-          group: mariadb
+          owner: mysql
+          group: mysql
           mode: 755
 
        -  path: /home/srv/cz.mercenarius.www
@@ -301,8 +301,8 @@ dirs:
           mode: 755
 
        -  path: /home/srv/cz.mercenarius.www/mysql
-          owner: maria
-          group: mariadb
+          owner: mysql
+          group: mysql
           mode: 755
 
        -  path: /home/srv/com.estanor.promeny
@@ -316,8 +316,8 @@ dirs:
           mode: 755
 
        -  path: /home/srv/com.estanor.promeny/mysql
-          owner: maria
-          group: mariadb
+          owner: mysql
+          group: mysql
           mode: 700
 
        -  path: /home/srv/eu.maikaphoto.www
@@ -331,8 +331,8 @@ dirs:
           mode: 755
 
        -  path: /home/srv/eu.maikaphoto.www/mysql
-          owner: maria
-          group: mariadb
+          owner: mysql
+          group: mysql
           mode: 755
 
        -  path: /home/srv/cz.charitativni.www
@@ -346,8 +346,8 @@ dirs:
           mode: 775
 
        -  path: /home/srv/cz.charitativni.www/mysql
-          owner: maria
-          group: mariadb
+          owner: mysql
+          group: mysql
           mode: 755
 
        -  path: /home/srv/net.alembiq.statistics
@@ -371,8 +371,8 @@ dirs:
           mode: 757
 
        -  path: /home/srv/com.karelkremel.www/mysql
-          owner: maria
-          group: mariadb
+          owner: mysql
+          group: mysql
           mode: 755
 
        -  path: /home/srv/com.estanor.www
@@ -386,8 +386,8 @@ dirs:
           mode: 755
 
        -  path: /home/srv/com.estanor.www/mysql
-          owner: maria
-          group: mariadb
+          owner: mysql
+          group: mysql
           mode: 755
 
        -  path: /home/srv/com.gnomephoto.www
@@ -401,8 +401,8 @@ dirs:
           mode: 775
 
        -  path: /home/srv/com.gnomephoto.www/mysql
-          owner: maria
-          group: mariadb
+          owner: mysql
+          group: mysql
           mode: 755
 
        -  path: /home/srv/com.estanor.madfairy.moon
@@ -416,8 +416,8 @@ dirs:
           mode: 755
 
        -  path: /home/srv/com.estanor.madfairy.moon/mysql
-          owner: maria
-          group: mariadb
+          owner: mysql
+          group: mysql
           mode: 700
 
        -  path: /home/srv/com.galeriebydleni.www
@@ -431,8 +431,8 @@ dirs:
           mode: 755
 
        -  path: /home/srv/com.galeriebydleni.www/mysql
-          owner: maria
-          group: mariadb
+          owner: mysql
+          group: mysql
           mode: 755
 
        -  path: /home/srv/com.emilovic.www
@@ -446,8 +446,8 @@ dirs:
           mode: 755
 
        -  path: /home/srv/com.emilovic.www/mysql
-          owner: maria
-          group: mariadb
+          owner: mysql
+          group: mysql
           mode: 755
 
        -  path: /home/srv/cz.rozpocty.www
@@ -466,8 +466,8 @@ dirs:
           mode: 755
 
        -  path: /home/srv/net.alembiq.reader/mysql
-          owner: maria
-          group: mariadb
+          owner: mysql
+          group: mysql
           mode: 755
 
        -  path: /home/srv/net.alembiq.reader/tt-rss
@@ -486,8 +486,8 @@ dirs:
           mode: 755
 
        -  path: /home/srv/photo.hajek.www/mysql
-          owner: maria
-          group: mariadb
+          owner: mysql
+          group: mysql
           mode: 755
 
        -  path: /home/srv/com.estanor.klab
@@ -526,13 +526,13 @@ dirs:
           mode: 755
 
        -  path: /home/srv/net.alembiq.validator/mysql_priest
-          owner: maria
-          group: mariadb
+          owner: mysql
+          group: mysql
           mode: 755
 
        -  path: /home/srv/net.alembiq.validator/mysql_zealot
-          owner: maria
-          group: mariadb
+          owner: mysql
+          group: mysql
           mode: 755
 
        -  path: /home/srv/net.alembiq.redmine
@@ -546,8 +546,8 @@ dirs:
           mode: 775
 
        -  path: /home/srv/net.alembiq.redmine/mysql
-          owner: maria
-          group: mariadb
+          owner: mysql
+          group: mysql
           mode: 755
 
        -  path: /home/srv/net.alembiq.redmine/redmine
