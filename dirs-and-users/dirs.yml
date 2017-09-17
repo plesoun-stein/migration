@@ -2,7 +2,7 @@
 dirs:
        -  path: /home/srv
           owner: root
-          owner: root
+          group: root
           mode: 755
 
        -  path: /home/srv/maria
