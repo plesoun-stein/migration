@@ -47,22 +47,22 @@ dirs:
 
        -  path: /home/srv/com.estanor.praguebylarp
           owner: estanor
-          owner: madfairy
+          group: madfairy
           mode: 755
 
        -  path: /home/srv/com.estanor.praguebylarp/htdocs
           owner: estanor
-          owner: madfairy
+          group: madfairy
           mode: 755
 
        -  path: /home/srv/com.estanor.madfairy.odraz
           owner: estanor
-          owner: madfairy
+          group: madfairy
           mode: 755
 
        -  path: /home/srv/com.estanor.madfairy.odraz/htdocs
           owner: estanor
-          owner: madfairy
+          group: madfairy
           mode: 755
 
        -  path: /home/srv/net.alembiq.www
@@ -107,22 +107,22 @@ dirs:
 
        -  path: /home/srv/com.estanor.madfairy.sny
           owner: estanor
-          owner: madfairy
+          group: madfairy
           mode: 755
 
        -  path: /home/srv/com.estanor.madfairy.sny/htdocs
           owner: estanor
-          owner: madfairy
+          group: madfairy
           mode: 755
 
        -  path: /home/srv/com.estanor.madfairy
           owner: estanor
-          owner: madfairy
+          group: madfairy
           mode: 755
 
        -  path: /home/srv/com.estanor.madfairy/htdocs
           owner: estanor
-          owner: madfairy
+          group: madfairy
           mode: 755
 
        -  path: /home/srv/com.estanor.madfairy/mysql
@@ -247,12 +247,12 @@ dirs:
 
        -  path: /home/srv/com.estanor.madfairy.skritci
           owner: estanor
-          owner: madfairy
+          group: madfairy
           mode: 755
 
        -  path: /home/srv/com.estanor.madfairy.skritci/htdocs
           owner: estanor
-          owner: madfairy
+          group: madfairy
           mode: 755
 
        -  path: /home/srv/cz.aplikovanakreativita.www
@@ -302,12 +302,12 @@ dirs:
 
        -  path: /home/srv/com.estanor.promeny
           owner: estanor
-          owner: madfairy
+          group: madfairy
           mode: 755
 
        -  path: /home/srv/com.estanor.promeny/htdocs
           owner: estanor
-          owner: madfairy
+          group: madfairy
           mode: 755
 
        -  path: /home/srv/com.estanor.promeny/mysql
@@ -402,12 +402,12 @@ dirs:
 
        -  path: /home/srv/com.estanor.madfairy.moon
           owner: estanor
-          owner: madfairy
+          group: madfairy
           mode: 755
 
        -  path: /home/srv/com.estanor.madfairy.moon/htdocs
           owner: estanor
-          owner: madfairy
+          group: madfairy
           mode: 755
 
        -  path: /home/srv/com.estanor.madfairy.moon/mysql
